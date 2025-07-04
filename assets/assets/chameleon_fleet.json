@@ -1,0 +1,73 @@
+{
+    "version": "1.0.0",
+    "fleet": {
+        "trains": [
+            "803001",
+            "803002",
+            "803003",
+            "803004",
+            "803005"
+        ]
+    },
+    "803001": {
+        "class": "803",
+        "activeConfig": "default",
+        "dummyState": {
+            "currentLatitude": "",
+            "currentLongitude": "",
+            "nextStation": "",
+            "expectedArrivalTime": "",
+            "speed": "",
+            "mileage": "",
+            "crewOnboard": [],
+            "driversOnboard": [],
+            "carriages": {
+                "A": {
+                    "status": "Operational",
+                    "faults": [],
+                    "seats": {
+                        "01": {
+                            "status": "connected",
+                            "hasPass": true,
+                            "passengerProfile": ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "classes": {
+        "803": {
+            "Model": "Cl 803 electric only train",
+            "Manufacturer": "Hitachi Rail Ltd.",
+            "Platform": "Hitachi AT300",
+            "InteriorFeatures": [
+                "Optimizes leg room and seat tilt for comfort",
+                "For balancing essentials during the journey",
+                "Optimally located power and USB ports for convenience",
+                "Additional reading light provided",
+                "Overhead lights with toned-down light for comfort"
+            ],
+            "EmissionValue": "20% less than the average car",
+            "Amenities": [
+                "Free onboard WiFi",
+                "Available infotainment for staying connected and entertained"
+            ],
+            "Assembly": {
+                "Origin": "Japan",
+                "AssemblyLocation": "Hitachi’s Newton Aycliffe factory",
+                "Testing": [
+                    "Rigorous factory testing",
+                    "Safety inspection programs",
+                    "Quality inspection programs"
+                ]
+            },
+            "TrainStats": {
+                "TotalSeats": 400,
+                "PrioritySeats": 52,
+                "WheelchairSpaces": 2,
+                "TopSpeed": "140mph (limited to max 125mph line speed)"
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "version": "1.0.0",
+    "ticketInformation": {
+        "LumoFlex": {
+            "Description": "One-way Standard Class ticket with additional flexibility.",
+            "Refunds": {
+                "PreDeparture": "Refundable fee-free until one day before departure.",
+                "OnOrAfterDateOfTravel": "Non-refundable on or after date of travel."
+            },
+            "ChangeOfJourney": {
+                "FeeFreeChanges": "Fee-free Change of Journey included.",
+                "Restrictions": "Changes must be arranged before departure of the first reserved train printed on the ticket, subject to fare difference.",
+                "Exchangeability": "Lumo services only, LumoFlex tickets are not exchangeable for tickets with other train operators."
+            },
+            "ChangeOptions": {
+                "ChangeRules": [
+                    "Changes must be arranged before departure of the first reserved train printed on the ticket, subject to fare difference.",
+                    "Changes cannot be made after your journey has departed.",
+                    "The origin, destination, and Train Company or route shown on the ticket(s) must remain the same.",
+                    "No admin fee will be applied for changes made up to the day before you are due to travel."
+                ],
+                "AdditionalInfo": "Booking a LumoFlex ticket allows you to make fee-free changes up to one day before departure, subject to fare difference. In many cases, no additional fare will be payable.",
+                "FeeOnDayOfTravel": "Subject to fare difference and no admin fee when changes are made up to the day before you are due to travel.",
+                "ChangeProcess": "If you wish to change your time of travel, date of travel, or the origin or destination of your ticket, you can pay the difference between the cost of the ticket held and the cost of the ticket that is most appropriate for the journey you need to make up to the day before you are due to travel, with no admin fee."
+            }
+        },
+        "LumoAny": {
+            "Description": "LumoAny is another ticket option that offers flexibility and refunds.",
+            "Refunds": {
+                "PreDeparture": "Fee-free refunds available",
+                "OnOrAfterDateOfTravel": "Refundable on or after date of travel, subject to a £10 admin fee."
+            },
+            "ChangeOfJourney": {
+                "FeeFreeChanges": "Fee-free before or on date of travel.",
+                "Restrictions": "Changes cannot be made after your journey has departed.",
+                "Exchangeability": "Lumo services only, LumoAny tickets are not exchangeable for tickets with other train operators.",
+                "SeatReservationNote": "Please note that with your LumoAny train ticket, your seat reservation will only be valid for your booked service."
+            },
+            "ChangeProcess": "If you have bought your train ticket direct from our Lumo website, you can change your LumoAny ticket in your account under payment details."
+        },
+        "LumoFixed": {
+            "Description": "One-way Standard Class ticket offering the best available price for each journey.",
+            "Refunds": {
+                "PreDeparture": "Non-refundable.",
+                "OnOrAfterDateOfTravel": "Non-refundable on or after date of travel."
+            },
+            "ChangeOfJourney": {
+                "FeeFreeChanges": "Changes must be arranged before departure of the first reserved train printed on the ticket, subject to fare difference.",
+                "Restrictions": "Changes cannot be made after your journey has departed.",
+                "Exchangeability": "Lumo services only, LumoFixed tickets are not exchangeable for tickets with other train operators."
+            },
+            "ChangeOptions": {
+                "ChangeRules": [
+                    "Changes must be arranged before departure of the first reserved train printed on the ticket, subject to fare difference.",
+                    "Changes cannot be made after your journey has departed.",
+                    "The origin, destination, and Train Company or route shown on the ticket(s) must remain the same.",
+                    "An administration fee of no more than £10 may be charged per ticket for each change to a journey."
+                ],
+                "AdditionalInfo": "Booking a LumoFixed ticket allows you to make changes before the first reserved train's departure, subject to fare difference and an admin fee.",
+                "FeeOnDayOfTravel": "Subject to fare difference and a £10 admin fee when changes are made on the day of travel.",
+                "ChangeProcess": "Changes can be made before the first reserved train's departure. If you have bought your train ticket direct from our Lumo website, you can change your LumoFixed ticket in your account under payment details."
+            }
+        }
+    }
+}

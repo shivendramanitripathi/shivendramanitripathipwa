@@ -1,0 +1,29 @@
+{
+  "sessionId": "ses_20250701_001",
+  "timestamp": "2025-07-01T12:30:00Z",
+  "trainInfo": {
+    "trainNumber": "803001",
+    "serviceId": "#221",
+    "seat": "C4II",
+    "destination": "KGX"
+  },
+  "journey": {
+    "bookingReference": "LUM123ABC",
+    "from": {
+      "stationCode": "NCL",
+      "stationName": "Newcastle Central"
+    },
+    "to": {
+      "stationCode": "KGX", 
+      "stationName": "London Kings Cross"
+    },
+    "coach": "C",
+    "seatNumber": "C4II",
+    "ticketType": "Standard"
+  },
+  "status": {
+    "currentStatus": "onTime",
+    "delay": 0,
+    "nextStop": "Durham"
+  }
+}

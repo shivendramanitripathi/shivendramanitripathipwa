@@ -1,0 +1,135 @@
+{
+    "version": "1.0.0",
+    "customerWebResources": {
+        "customerWebsite": {
+            "url": "https://www.lumo.co.uk/",
+            "description": "Visit the Lumo website for more information on our services, ticket booking, and more."
+        },
+        "lumoEats": {
+            "enabled": true,
+            "url": "https://www.lumoeats.co.uk/",
+            "description": "Pre-order hot food and drinks for your journey."
+        },
+        "lumoLuggage": {
+            "enabled": true,
+            "url": "https://www.lumo.co.uk/onboard/lumoluggage",
+            "description": "Book the LumoLuggage Courier Service to transport bulky items."
+        },
+        "railHelp": {
+            "enabled": true,
+            "url": "https://www.railhelp.co.uk/lumo/",
+            "description": "Get help with any queries or issues you may have."
+        },
+        "onboardFeedbackForm": {
+            "enabled": true,
+            "url": "https://www.lumo.co.uk/feedback",
+            "description": "Provide feedback on your journey experience."
+        },
+        "onboardInfotainment": {
+            "enabled": true,
+            "url": "https://www.lumogo.co.uk",
+            "description": "Access infotainment options including movies, TV shows, and games."
+        },
+        "onboardMenu": {
+            "enabled": true,
+            "url": "https://www.squareup.com/",
+            "description": "Visit our online store for Lumo merchandise and more."
+        }
+    },
+    "support": {
+        "generalEnquiries": [
+            {
+                "meta": "toilet restroom washroom facilities",
+                "question": "Where can I find the toilets onboard?",
+                "answer": "You can find the onboard toilets in carriages B & D. Please use the map in this app or speak to a member of the crew for further assistance.",
+                "media": "lumo/pet_policy_animation.json"
+            },
+            {
+                "meta": "food snacks drinks cafeteria dining cart lumoeats refreshments drink",
+                "question": "Where can I purchase food and drinks during the journey?",
+                "answer": "Hot food is available only by pre-order at lumoeats.co.uk/. There is an at-seat trolley service with cold food and drinks, including chocolate, snacks, water, and soft drinks."
+            },
+            {
+                "meta": "food snacks drinks cafeteria dining cart preorder lumoeats",
+                "question": "I pre-ordered food, where is it?",
+                "answer": "If you pre-ordered at lumoeats.co.uk/ a member of staff will endeavour to deliver your order shortly after departure. If in doubt, please speak to a member of our crew."
+            },
+            {
+                "meta": "emergency exits escape",
+                "question": "How can I locate the emergency exits in the train?",
+                "answer": "The exits are located at XXXXXXX"
+            },
+            {
+                "meta": "wifi internet connection wi-fi connect",
+                "question": "How do I connect to the onboard WiFi?",
+                "answer": "NOANSWER"
+            },
+            {
+                "meta": "entertainment, movies, games, fun, bored",
+                "question": "How do I connect to the onboard WiFi?",
+                "answer": "Connect to LumoGo by following the instructions on the 'Entertainment' page in this app. We'll do our best to keep you entertained!"
+            },
+            {
+                "meta": "charging ports outlets power cables",
+                "question": "Where are the charging ports located in the train?",
+                "answer": "Our charging ports are located just below your seat. We also offer USB ports to charge your mobile device"
+            },
+            {
+                "meta": "seating reserved general seat seats",
+                "question": "How can I differentiate between reserved and general seating?",
+                "answer": "Check the light above the seats, just above the window. This will tell you if the seat is reserved or available"
+            },
+            {
+                "meta": "lost found items belongings",
+                "question": "What to do when you lose something onboard?",
+                "answer": "Report this to a member of our crew, we'll make sure to submit a report and do our best to help you find it!"
+            },
+            {
+                "meta": "where schedule timings stops platforms stations station platform",
+                "question": "How can I check the train's schedule and stops?",
+                "answer": "You can check the train's schedule and stops on the Lumo website. The initial service consists of two trains per day in each direction on most weekdays, and the current service is five trains per day in each direction. The stops are: London King's Cross, Stevenage, Newcastle, Morpeth, and Edinburgh Waverley."
+            },
+            {
+                "meta": "ticket tickets validation booking e-ticket eticket etickets e-tickets",
+                "question": "What should I keep in mind regarding ticket validation during the journey?",
+                "answer": "Lumo is a digital-first operator and uses a paperless ticketing system. Booking is available via the Lumo website, app, and other train ticket booking sites. Ensure you have a valid digital ticket before boarding."
+            },
+            {
+                "meta": "pets dogs dog cat pig mouse rat animals",
+                "question": "What is Lumo's pet policy?",
+                "answer": "Dogs are allowed onboard but they must be on a leash. However, dogs don't require seat reservations. Small domestic animals should be in fully enclosed baskets with dimensions not exceeding 85 x 60 x 60 cm. Water bowls and stool bags for pets are available upon request from Lumo staff.",
+                "media": "lumo/pet_policy_animation.json"
+            },
+            {
+                "meta": "where headquarters location based company",
+                "question": "Where is Lumo's headquarters located?",
+                "answer": "Lumo's headquarters is located in Newcastle upon Tyne, United Kingdom."
+            },
+            {
+                "meta": "luggage suitcase baggage bag bags policy",
+                "question": "What is Lumo's luggage policy?",
+                "answer": "Customers should travel light due to limited space onboard. Bulky sporting equipment over 63 x 41 x 27cm cannot be stored safely on board. However, customers can use LumoLuggage Courier Service to transport such items. The luggage service can be booked at https://www.lumo.co.uk/onboard/lumoluggage."
+            },
+            {
+                "meta": "trains fleet information",
+                "question": "What can you tell me about Lumo's train fleet?",
+                "answer": "Lumo operates 5 trains of the model Class 803 electric multiple unit high-speed trains. These trains are manufactured by Hitachi and have a seating capacity of 400. The seating arrangement is all-standard class 2-by-2."
+            },
+            {
+                "meta": "safe scared worried anxious distressed customer help aggressive angry uncomfortable sexual assault staring",
+                "question": "I feel unsafe, what can I do?",
+                "answer": "Lumo are committed to ensuring passengers feel safe and relaxed throughout their journey. If you feel unsafe or have a concern about another passenger, speak to one of our members of staff, who are trained to deal with any situations. We will ensure discreteness where necessary."
+            },
+            {
+                "meta": "card payments cash pay contactless tickets",
+                "question": "Do you accept cash onboard?",
+                "answer": "As a digital-first operator committed to sustainability, we are unable to take cash payments onboard. We accept contactless and card payments."
+            },
+            {
+                "meta": "live train status information",
+                "question": "How can I get live information on the train's location and status?",
+                "answer": "You can get live information about the train's location and status through the Lumo app. The app provides real-time updates and notifications regarding any delays or changes in schedule."
+            }
+        ]
+    }
+}

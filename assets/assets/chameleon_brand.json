@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "info": {
+    "name": "Lumo",
+    "officelocation": "Newcastle upon Tyne, United Kingdom",
+    "companyType": "Train Operating Company",
+    "founded": "2021"
+  },
+
+  "logo": "https://www.lumo.co.uk/assets/images/logo.svg",
+  "colors": {
+    "primaryColor": "#0D7CA1",
+    "buttonColor": "#FFFFFF",
+    "secondaryColor": "#3F8DBD",
+    "accentColor": "#4782F0"
+  },
+  "fonts": {
+    "titleFont": {
+      "fontFamily": "Montserrat-Bold",
+      "fontStyle": "normal"
+    },
+    "headingFont": {
+      "fontFamily": "Montserrat-Bold",
+      "fontStyle": "normal"
+    },
+    "bodyFont": {
+      "fontFamily": "Montserrat-Medium",
+      "fontStyle": "normal"
+    },
+    "secondaryFont": {
+      "fontFamily": "Montserrat-Regular",
+      "fontStyle": "normal"
+    },
+    "smallFont": {
+      "fontFamily": "Montserrat-Regular",
+      "fontStyle": "normal"
+    }
+  }
+}
