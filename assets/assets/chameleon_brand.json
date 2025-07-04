@@ -16,23 +16,23 @@
   },
   "fonts": {
     "titleFont": {
-      "fontFamily": "Montserrat-Bold",
+      "fontFamily": "Graphik",
       "fontStyle": "normal"
     },
     "headingFont": {
-      "fontFamily": "Montserrat-Bold",
+      "fontFamily": "Graphik",
       "fontStyle": "normal"
     },
     "bodyFont": {
-      "fontFamily": "Montserrat-Medium",
+      "fontFamily": "Graphik",
       "fontStyle": "normal"
     },
     "secondaryFont": {
-      "fontFamily": "Montserrat-Regular",
+      "fontFamily": "Graphik",
       "fontStyle": "normal"
     },
     "smallFont": {
-      "fontFamily": "Montserrat-Regular",
+      "fontFamily": "Graphik",
       "fontStyle": "normal"
     }
   }
