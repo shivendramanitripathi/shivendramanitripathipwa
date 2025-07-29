@@ -1,0 +1,130 @@
+{
+    "version": "1.0.0",
+    "name": "LumoLive",
+    "enabled": true,
+    "redundancyFallbackMode": true,
+    "activeConfig": "default",
+    "configs": {
+        "default": {
+            "popup": {
+                "enabled": false,
+                "message": "",
+                "cta": ""
+            },
+            "fonts": {
+                "titleFont": "{{<brand>.fonts.titleFont}}",
+                "headingFont": "{{<brand>.fonts.headingFont}}",
+                "bodyFont": "{{<brand>.fonts.bodyFont}}",
+                "subheadingFont": "{{<brand>.fonts.subheadingFont}}"
+            },
+            "promo_page": {
+                "enabled": false,
+                "content": "Download the Lumo app for a seamless journey experience.",
+                "style": "Download now"
+            },
+            "palette": {
+                "enabled": false,
+                "primaryColor": "{{<brand>.colors.primaryColor}}",
+                "secondaryColor": "{{<brand>.colors.secondaryColor}}",
+                "accentColor": "{{<brand>.colors.accentColor}}",
+                "gradientColors": {
+                    "defaultColors": [
+                        "#0D7CA1",
+                        "#3F8DBD",
+                        "#4782F0"
+                    ],
+                    "errorColors": [
+                        "#CD5C5C",
+                        "#B22222",
+                        "#4682B4"
+                    ],
+                    "disruptionColors": [
+                        "#1E90FF",
+                        "#FF8C00",
+                        "#6495ED"
+                    ],
+                    "approachingDestinationColors": [
+                        "#87CEFA",
+                        "#4682B4",
+                        "#1E90FF"
+                    ],
+                    "departureColors": [
+                        "#32CD32",
+                        "#20B2AA",
+                        "#87CEEB"
+                    ],
+                    "entertainmentPageColors": [
+                        "#ADD8E6",
+                        "#00BFFF",
+                        "#7B68EE"
+                    ],
+                    "journeyPageColors": [
+                        "#B0E0E6",
+                        "#6495ED",
+                        "#00CED1"
+                    ],
+                    "trolleyMenuPageColors": [
+                        "#66CDAA",
+                        "#00BFFF",
+                        "#87CEFA"
+                    ],
+                    "helpPageColors": [
+                        "#B0C4DE",
+                        "#4682B4",
+                        "#6495ED"
+                    ],
+                    "feedbackPageColors": [
+                        "#ADD8E6",
+                        "#00BFFF",
+                        "#87CEEB"
+                    ],
+                    "angryColors": [
+                        "#FF6347",
+                        "#FF4500",
+                        "#FFA07A"
+                    ]
+                }
+            },
+            "pages": {
+                "landingPage": {
+                    "type": "chameleonLandingPage",
+                    "title": "LumoLive",
+                    "subtitle": "Welcome Aboard!",
+                    "landingMessage": "Your onboard assistant for a seamless journey experience.",
+                    "onboardingActive": true,
+                    "onboardingModel": "standard",
+                    "enabled": true,
+                    "description": "Welcome to LumoLive! Your onboard assistant for a seamless journey experience."
+                },
+                "liveJourney": {
+                    "enabled": true,
+                    "type": "chameleonJourneyPlanner",
+                    "show_map": true,
+                    "description": "Plan your journey, check live train times, and buy tickets on the go."
+                },
+                "entertainment": {
+                    "enabled": true,
+                    "type": "chameleonEntertainmentPage",
+                    "description": "Enjoy a range of entertainment options including movies, TV shows, and games."
+                },
+                "mainMenu": {
+                    "enabled": true,
+                    "type": "chameleonMainMenuPage",
+                    "title": "Main Menu",
+                    "subtitle": "Explore LumoLive",
+                    "description": "Explore LumoLive for a seamless journey experience."
+                },
+                "help": {
+                    "type": "chameleonHelpPage",
+                    "enabled": true,
+                    "description": "Get in touch with our customer service team for any assistance.",
+                    "helpDataPath": "{{[support][generalEnquiries]}}"
+                },
+                "live_updates": {
+                    "enabled": true,
+                    "description": "Receive real-time updates on your journey, including any delays or changes in schedule."
+                }
+            }
+        }
+    }
+}

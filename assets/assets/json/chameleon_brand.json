@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "info": {
+    "name": "Lumo",
+    "officelocation": "Newcastle upon Tyne, United Kingdom",
+    "companyType": "Train Operating Company",
+    "founded": "2021"
+  },
+  "logo": "https://www.lumo.co.uk/assets/images/logo.svg",
+  "colors": {
+    "primaryColor": "#0000ff",
+    "secondaryColor": "#0000ff",
+    "accentColor": "#9c279c",
+    "gradient1": ["#a1c4fd", "#c2e9fb", "#a155fd"],
+    "buttonColor": "#FFFFFF",
+    "primaryFontColor": "#FFFFFF"
+  },
+  "fonts": {
+    "titleFont": {
+      "fontFamily": "Graphik",
+      "fontStyle": "normal",
+      "fontSize": 32
+    },
+    "headingFont": {
+      "fontFamily": "Graphik",
+      "fontStyle": "normal",
+      "fontSize": 24
+    },
+    "bodyFont": {
+      "fontFamily": "Graphik",
+      "fontStyle": "normal",
+      "fontSize": 16
+    },
+    "secondaryFont": {
+      "fontFamily": "Graphik",
+      "fontStyle": "normal",
+      "fontSize": 14
+    },
+    "smallFont": {
+      "fontFamily": "Graphik",
+      "fontStyle": "normal",
+      "fontSize": 12
+    },
+    "buttonFont": {
+      "fontFamily": "Graphik",
+      "fontStyle": "normal",
+      "fontSize": 16
+    }
+  },
+  "styles": {
+    "buttonBorderRadius": 8,
+    "cardBorderRadius": 12,
+    "iconSize": 24,
+    "logoHeight": 48,
+    "logoWidth": 48
+  }
+}

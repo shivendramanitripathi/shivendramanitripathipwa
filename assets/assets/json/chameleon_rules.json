@@ -1,0 +1,19 @@
+{
+    "version": "1.0.0",
+    "rules": {
+        "Allows Bikes": false,
+        "Offers Exclusive Perks": true,
+        "Has Free WiFi": true,
+        "Has Entertainment via App": true,
+        "Supports Multi-Modal Travel": true,
+        "Provides Maintenance Notices": true,
+        "Offers Alternative Transport During Maintenance": true,
+        "Has Simplified Fare Structure": true,
+        "Allows Seat Selection": true,
+        "Offers Free Seat Change": true,
+        "Provides Compensation for No Seat": true,
+        "Has Onboard Purchases": true,
+        "Requires Advance Booking for Bike Space": true,
+        "Provides Updates via JourneyCheck": true
+    }
+}

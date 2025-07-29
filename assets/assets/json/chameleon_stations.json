@@ -1,0 +1,82 @@
+{
+    "version": "1.0.0",
+    "stations": {
+        "kgx": {
+            "stationName": "London King's Cross",
+            "stationCode": "KGX",
+            "stationCoordinates": {
+                "latitude": 51.5322,
+                "longitude": -0.1235
+            },
+            "connectedStationData": {
+                "SVG": {
+                    "distance": 44.3
+                }
+            }
+        },
+        "svg": {
+            "stationName": "Stevenage",
+            "stationCode": "SVG",
+            "stationCoordinates": {
+                "latitude": 51.9014,
+                "longitude": -0.2077
+            },
+            "connectedStationData": {
+                "KGX": {
+                    "distance": 44.3
+                },
+                "NCL": {
+                    "distance": 354
+                }
+            }
+        },
+        "ncl": {
+            "stationName": "Newcastle",
+            "stationCode": "NCL",
+            "stationCoordinates": {
+                "latitude": 54.9681,
+                "longitude": -1.6178
+            },
+            "connectedStationData": {
+                "SVG": {
+                    "distance": 220
+                },
+                "MPT": {
+                    "distance": 14
+                }
+            }
+        },
+        "mpt": {
+            "stationName": "Morpeth",
+            "stationCode": "MPT",
+            "stationCoordinates": {
+                "latitude": 55.1625,
+                "longitude": -1.6875
+            },
+            "connectedStationData": {
+                "NCL": {
+                    "distance": 14
+                },
+                "EDB": {
+                    "distance": 80
+                }
+            }
+        },
+        "edb": {
+            "stationName": "Edinburgh Waverley",
+            "stationCode": "EDB",
+            "stationCoordinates": {
+                "latitude": 55.9521,
+                "longitude": -3.1889
+            },
+            "connectedStationData": {
+                "MPT": {
+                    "distance": 80
+                }
+            }
+        }
+    }
+}
+
+
+
