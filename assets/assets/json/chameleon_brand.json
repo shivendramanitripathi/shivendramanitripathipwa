@@ -17,32 +17,32 @@
   },
   "fonts": {
     "titleFont": {
-      "fontFamily": "Graphik",
+      "fontFamily": "Graphik Trial",
       "fontStyle": "normal",
       "fontSize": 32
     },
     "headingFont": {
-      "fontFamily": "Graphik",
+      "fontFamily": "Graphik Trial",
       "fontStyle": "normal",
       "fontSize": 24
     },
     "bodyFont": {
-      "fontFamily": "Graphik",
+      "fontFamily": "Graphik Trial",
       "fontStyle": "normal",
       "fontSize": 16
     },
     "secondaryFont": {
-      "fontFamily": "Graphik",
+      "fontFamily": "Graphik Trial",
       "fontStyle": "normal",
       "fontSize": 14
     },
     "smallFont": {
-      "fontFamily": "Graphik",
+      "fontFamily": "Graphik Trial",
       "fontStyle": "normal",
       "fontSize": 12
     },
     "buttonFont": {
-      "fontFamily": "Graphik",
+      "fontFamily": "Graphik Trial",
       "fontStyle": "normal",
       "fontSize": 16
     }
