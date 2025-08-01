@@ -3372,7 +3372,8 @@
                 "reporting_category": {
                     "id": "746EHJACZBNVH3DGVF3QTXNV",
                     "ordinal": 68719476736
-                }
+                },
+                "show_in_menu": false
             }
         },
         {
@@ -7195,7 +7196,8 @@
                 "reporting_category": {
                     "id": "746EHJACZBNVH3DGVF3QTXNV",
                     "ordinal": 137438953472
-                }
+                },
+                "show_in_menu": false
             }
         },
         {
@@ -8108,7 +8110,8 @@
                     "id": "FKSOGACQKVG4I53O2AMIOGR5",
                     "ordinal": -2251731094208512
                 },
-                "is_alcoholic": false
+                "is_alcoholic": false,
+                "show_in_menu": false
             }
         },
         {
@@ -8996,7 +8999,8 @@
                 "reporting_category": {
                     "id": "FKSOGACQKVG4I53O2AMIOGR5",
                     "ordinal": -2251662374731776
-                }
+                },
+                "show_in_menu": false
             }
         },
         {

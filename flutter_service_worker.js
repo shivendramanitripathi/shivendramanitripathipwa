@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "2fc4cb04243664ab409767b2539333de",
-"assets/AssetManifest.bin.json": "4d3f47fa1c23bc75e168f6bed8249408",
-"assets/AssetManifest.json": "e1b69ac52de9ad3e9fa7a365ed61e683",
+const RESOURCES = {"assets/AssetManifest.bin": "1edff4cac8671638f9ab04b066836f2e",
+"assets/AssetManifest.bin.json": "884751fd422dbf4e17e92f94efe88cfc",
+"assets/AssetManifest.json": "c21760a02ea548edc04fcd1e2f8d11ff",
 "assets/assets/fonts/Graphik-Bold.otf": "b6db2b8e4de29b06738214a25eb3987b",
 "assets/assets/fonts/Graphik-Medium.otf": "e741f2e4034bace58b70cc59dfbe5594",
 "assets/assets/fonts/Graphik-Regular.otf": "dbdd333afd6559c1884208b8537ab62d",
@@ -34,7 +34,6 @@ const RESOURCES = {"assets/AssetManifest.bin": "2fc4cb04243664ab409767b2539333de
 "assets/assets/images/travelPasses.png": "d9a42a96ae3ad7b05d3aab42caee48a0",
 "assets/assets/images/Uncategorized.png": "9757059e7980b740ec63a60cdb618f71",
 "assets/assets/json/animated_wifi_eye.json": "c3c56bc16121d76e436c93afe75fc464",
-"assets/assets/json/catalogue_response.json": "4c0149ee5287868079d248a2f4dcbcd8",
 "assets/assets/json/chameleon_brand.json": "9898e5be15975fac5dca78752b68a2dd",
 "assets/assets/json/chameleon_customer_hub.json": "20505c3d8c12f98e76bb17e8e439b015",
 "assets/assets/json/chameleon_faq.json": "6ce270bb080b2a6095e3116b1dbe80bb",
@@ -44,7 +43,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "2fc4cb04243664ab409767b2539333de
 "assets/assets/json/chameleon_stations.json": "23ae7ed85a7ef36a14d12d660e870fd3",
 "assets/assets/json/chameleon_tickets.json": "cf6f3d98e1a441ab1143fd695033c7b9",
 "assets/assets/json/entertainment_loading.json": "7c46f5df18578f8151ec7c83bfc73597",
-"assets/assets/json/products.json": "94b386097128d402a94df2adc6310e7b",
+"assets/assets/json/products.json": "516af99a3b1a06c2fd78969ddf562076",
 "assets/assets/json/session.json": "b600ef0fde4f623b06a246ab1c81f047",
 "assets/assets/json/swipe.json": "62911f66bbdc08982894d08ea9d33af4",
 "assets/FontManifest.json": "01acf30a15bac4de8052c4cfbfb15890",
@@ -64,14 +63,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "2fc4cb04243664ab409767b2539333de
 "canvaskit/skwasm.wasm": "39dd80367a4e71582d234948adc521c0",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
-"flutter_bootstrap.js": "5ecde78d0e93f08ae247cc7d3658ce2d",
+"flutter_bootstrap.js": "1a669360eace3f76aab7b7728e75c558",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "e82d3fa3f0aac9d2fd16e2eee96243f1",
-"/": "e82d3fa3f0aac9d2fd16e2eee96243f1",
-"main.dart.js": "57c056a0736452abf2d1b3008485a2f3",
+"index.html": "0cd382c1187572f078dbc3901b4bcb9e",
+"/": "0cd382c1187572f078dbc3901b4bcb9e",
+"main.dart.js": "a41e0b080d22b912c282769d7e957e01",
 "manifest.json": "1fdb43039b0883200c54e9a6dc0ccdf2",
 "version.json": "277aaa89689b4bf55a501309a70b82d2"};
 // The application shell files that are downloaded before a service worker can
