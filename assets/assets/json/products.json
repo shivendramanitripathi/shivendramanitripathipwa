@@ -4777,7 +4777,7 @@
             ],
             "item_data": {
                 "name": "Scone with Clotted Cream & Jam",
-                "description": "Scones with Clotted Cream & Jam",
+                "description": "Scone with Clotted Cream & Jam",
                 "is_taxable": true,
                 "tax_ids": [
                     "YKOCO6H4F4S6J3YSQLQAWTFN"
@@ -5516,7 +5516,7 @@
             ],
             "item_data": {
                 "name": "Cup a Soup - Chicken",
-                "description": "Cup a Soup Chicken",
+                "description": "Cup a Soup - Chicken",
                 "is_taxable": true,
                 "tax_ids": [
                     "YKOCO6H4F4S6J3YSQLQAWTFN"
@@ -5605,7 +5605,7 @@
             ],
             "item_data": {
                 "name": "Cup a Soup - Tomato",
-                "description": "Cup a Soup Tomato",
+                "description": "Cup a Soup - Tomato",
                 "is_taxable": true,
                 "tax_ids": [
                     "YKOCO6H4F4S6J3YSQLQAWTFN"
@@ -5694,7 +5694,7 @@
             ],
             "item_data": {
                 "name": "Choco Leibniz Biscuits",
-                "description": "Choco Leibniz biscuits",
+                "description": "Choco Leibniz Biscuits",
                 "is_taxable": true,
                 "tax_ids": [
                     "YKOCO6H4F4S6J3YSQLQAWTFN"
@@ -6048,7 +6048,7 @@
             ],
             "item_data": {
                 "name": "Train Box - Jellybeans",
-                "description": "Train box with jellybeans",
+                "description": "Train Box - Jellybeans",
                 "is_taxable": true,
                 "tax_ids": [
                     "YKOCO6H4F4S6J3YSQLQAWTFN"
@@ -6135,7 +6135,7 @@
             ],
             "item_data": {
                 "name": "Train Box - Vegan Gummies",
-                "description": "Train box with vegan gummies",
+                "description": "Train Box - Vegan Gummies",
                 "is_taxable": true,
                 "tax_ids": [
                     "YKOCO6H4F4S6J3YSQLQAWTFN"
