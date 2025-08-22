@@ -1,13 +1,30 @@
 {
-    "name": "chameleon_customer_hub",
-    "short_name": "chameleon_customer_hub",
+    "name": "Lumo Customer Hub",
+    "short_name": "Lumo Hub",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "description": "Lumo Customer Hub for journey feedback and information.",
+    "orientation": "any",
     "prefer_related_applications": false,
+    "categories": ["travel", "transportation", "lifestyle"],
+    "screenshots": [
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "Lumo Customer Hub"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Home",
+            "url": "/",
+            "icons": [{ "src": "icons/Icon-192.png", "sizes": "192x192" }]
+        }
+    ],
     "icons": [
         {
             "src": "icons/Icon-192.png",
