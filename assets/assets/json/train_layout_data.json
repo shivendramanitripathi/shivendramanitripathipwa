@@ -1,0 +1,322 @@
+{
+  "trainId": "LUMO001",
+  "trainName": "Lumo Express",
+  "stations": [
+    {
+      "id": "KGX",
+      "name": "London Kings Cross",
+      "code": "KGX",
+      "departureTime": "10:00"
+    },
+    {
+      "id": "YRK",
+      "name": "York",
+      "code": "YRK",
+      "departureTime": "11:30"
+    },
+    {
+      "id": "NCL",
+      "name": "Newcastle",
+      "code": "NCL",
+      "departureTime": "12:45"
+    },
+    {
+      "id": "EDB",
+      "name": "Edinburgh",
+      "code": "EDB",
+      "departureTime": "14:15"
+    },
+    {
+      "id": "ABD",
+      "name": "Aberdeen",
+      "code": "ABD",
+      "departureTime": "16:00"
+    },
+    {
+      "id": "INV",
+      "name": "Inverness",
+      "code": "INV",
+      "departureTime": "17:30"
+    }
+  ],
+  "coaches": [
+    {
+      "id": "A",
+      "name": "Coach A",
+      "type": "Standard",
+      "totalSeats": 58,
+      "layout": {
+        "rows": [
+          {
+            "name": "Row 1",
+            "facingRight": true,
+            "topSeats": [1, 5, 9, 13, 17, 21, 25],
+            "bottomSeats": [2, 6, 10, 14, 18, 22, 26]
+          },
+          {
+            "name": "Row 2",
+            "facingRight": true,
+            "topSeats": [3, 7, 11, 15, 19, 23, 27],
+            "bottomSeats": [4, 8, 12, 16, 20, 24, 28]
+          },
+          {
+            "name": "Table 1",
+            "type": "table"
+          },
+          {
+            "name": "Row 3",
+            "facingRight": false,
+            "topSeats": [30, 34, 38, 42, 46, 50, 54],
+            "bottomSeats": [29, 33, 37, 41, 45, 49, 53]
+          },
+          {
+            "name": "Row 4",
+            "facingRight": false,
+            "topSeats": [32, 36, 40, 44, 48, 52, 56],
+            "bottomSeats": [31, 35, 39, 43, 47, 51, 55]
+          },
+          {
+            "name": "Table 2",
+            "type": "table"
+          },
+          {
+            "name": "AccessibleSeats",
+            "type": "accessible",
+            "seats": [57, 58]
+          }
+        ],
+        "facilities": ["toilets", "luggage", "exit"]
+      },
+      "seats": {
+        "standard": [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38, 39, 41, 42, 43, 45, 46, 47, 49, 50, 51, 53, 54, 55],
+        "priority": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56],
+        "accessible": [57, 58]
+      }
+    },
+    {
+      "id": "B",
+      "name": "Coach B",
+      "type": "Standard Plus",
+      "totalSeats": 58,
+      "layout": {
+        "rows": [
+          {
+            "name": "Row 1",
+            "facingRight": true,
+            "topSeats": [1, 5, 9, 13, 17, 21, 25],
+            "bottomSeats": [2, 6, 10, 14, 18, 22, 26]
+          },
+          {
+            "name": "Row 2",
+            "facingRight": true,
+            "topSeats": [3, 7, 11, 15, 19, 23, 27],
+            "bottomSeats": [4, 8, 12, 16, 20, 24, 28]
+          },
+          {
+            "name": "Table 1",
+            "type": "table"
+          },
+          {
+            "name": "Row 3",
+            "facingRight": false,
+            "topSeats": [30, 34, 38, 42, 46, 50, 54],
+            "bottomSeats": [29, 33, 37, 41, 45, 49, 53]
+          },
+          {
+            "name": "Row 4",
+            "facingRight": false,
+            "topSeats": [32, 36, 40, 44, 48, 52, 56],
+            "bottomSeats": [31, 35, 39, 43, 47, 51, 55]
+          },
+          {
+            "name": "Table 2",
+            "type": "table"
+          },
+          {
+            "name": "AccessibleSeats",
+            "type": "accessible",
+            "seats": [57, 58]
+          }
+        ],
+        "facilities": ["toilets", "luggage", "exit", "charging_points"]
+      },
+      "seats": {
+        "standard": [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38, 39, 41, 42, 43, 45, 46, 47, 49, 50, 51, 53, 54, 55],
+        "priority": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56],
+        "accessible": [57, 58]
+      }
+    },
+    {
+      "id": "C",
+      "name": "Coach C",
+      "type": "First Class",
+      "totalSeats": 48,
+      "layout": {
+        "rows": [
+          {
+            "name": "Row 1",
+            "facingRight": true,
+            "topSeats": [1, 5, 9, 13, 17, 21],
+            "bottomSeats": [2, 6, 10, 14, 18, 22]
+          },
+          {
+            "name": "Row 2",
+            "facingRight": true,
+            "topSeats": [3, 7, 11, 15, 19, 23],
+            "bottomSeats": [4, 8, 12, 16, 20, 24]
+          },
+          {
+            "name": "Table 1",
+            "type": "table"
+          },
+          {
+            "name": "Row 3",
+            "facingRight": false,
+            "topSeats": [26, 30, 34, 38, 42, 46],
+            "bottomSeats": [25, 29, 33, 37, 41, 45]
+          },
+          {
+            "name": "Row 4",
+            "facingRight": false,
+            "topSeats": [28, 32, 36, 40, 44, 48],
+            "bottomSeats": [27, 31, 35, 39, 43, 47]
+          },
+          {
+            "name": "Table 2",
+            "type": "table"
+          }
+        ],
+        "facilities": ["toilets", "luggage", "exit", "charging_points", "enhanced_catering"]
+      },
+      "seats": {
+        "standard": [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38, 39, 41, 42, 43, 45, 46, 47],
+        "priority": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48],
+        "accessible": []
+      }
+    },
+    {
+      "id": "D",
+      "name": "Coach D",
+      "type": "Standard",
+      "totalSeats": 58,
+      "layout": {
+        "rows": [
+          {
+            "name": "Row 1",
+            "facingRight": true,
+            "topSeats": [1, 5, 9, 13, 17, 21, 25],
+            "bottomSeats": [2, 6, 10, 14, 18, 22, 26]
+          },
+          {
+            "name": "Row 2",
+            "facingRight": true,
+            "topSeats": [3, 7, 11, 15, 19, 23, 27],
+            "bottomSeats": [4, 8, 12, 16, 20, 24, 28]
+          },
+          {
+            "name": "Table 1",
+            "type": "table"
+          },
+          {
+            "name": "Row 3",
+            "facingRight": false,
+            "topSeats": [30, 34, 38, 42, 46, 50, 54],
+            "bottomSeats": [29, 33, 37, 41, 45, 49, 53]
+          },
+          {
+            "name": "Row 4",
+            "facingRight": false,
+            "topSeats": [32, 36, 40, 44, 48, 52, 56],
+            "bottomSeats": [31, 35, 39, 43, 47, 51, 55]
+          },
+          {
+            "name": "Table 2",
+            "type": "table"
+          },
+          {
+            "name": "AccessibleSeats",
+            "type": "accessible",
+            "seats": [57, 58]
+          }
+        ],
+        "facilities": ["toilets", "luggage", "exit"]
+      },
+      "seats": {
+        "standard": [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38, 39, 41, 42, 43, 45, 46, 47, 49, 50, 51, 53, 54, 55],
+        "priority": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56],
+        "accessible": [57, 58]
+      }
+    },
+    {
+      "id": "E",
+      "name": "Coach E",
+      "type": "Standard Plus",
+      "totalSeats": 58,
+      "layout": {
+        "rows": [
+          {
+            "name": "Row 1",
+            "facingRight": true,
+            "topSeats": [1, 5, 9, 13, 17, 21, 25],
+            "bottomSeats": [2, 6, 10, 14, 18, 22, 26]
+          },
+          {
+            "name": "Row 2",
+            "facingRight": true,
+            "topSeats": [3, 7, 11, 15, 19, 23, 27],
+            "bottomSeats": [4, 8, 12, 16, 20, 24, 28]
+          },
+          {
+            "name": "Table 1",
+            "type": "table"
+          },
+          {
+            "name": "Row 3",
+            "facingRight": false,
+            "topSeats": [30, 34, 38, 42, 46, 50, 54],
+            "bottomSeats": [29, 33, 37, 41, 45, 49, 53]
+          },
+          {
+            "name": "Row 4",
+            "facingRight": false,
+            "topSeats": [32, 36, 40, 44, 48, 52, 56],
+            "bottomSeats": [31, 35, 39, 43, 47, 51, 55]
+          },
+          {
+            "name": "Table 2",
+            "type": "table"
+          },
+          {
+            "name": "AccessibleSeats",
+            "type": "accessible",
+            "seats": [57, 58]
+          }
+        ],
+        "facilities": ["toilets", "luggage", "exit", "charging_points"]
+      },
+      "seats": {
+        "standard": [1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38, 39, 41, 42, 43, 45, 46, 47, 49, 50, 51, 53, 54, 55],
+        "priority": [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56],
+        "accessible": [57, 58]
+      }
+    }
+  ],
+  "seatTypes": {
+    "standard": {
+      "name": "Standard Seat",
+      "color": "0x4C00FFB0",
+      "borderColor": "0xFF00FFAF"
+    },
+    "priority": {
+      "name": "Priority Seat",
+      "color": "0x4CFF677B",
+      "borderColor": "0xFFFF677B"
+    },
+    "accessible": {
+      "name": "Accessible Seat",
+      "color": "0x4C00FFB0",
+      "borderColor": "0xFF00FFAF",
+      "icon": "accessible"
+    }
+  }
+}
