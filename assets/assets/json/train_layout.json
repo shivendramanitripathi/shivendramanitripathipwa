@@ -1,0 +1,9 @@
+{
+  "coaches": [
+    {"id": "A", "seats": 60},
+    {"id": "B", "seats": 56},
+    {"id": "C", "seats": 64}
+  ],
+  "train_name": "Lumo Express",
+  "layout_version": 1
+}
