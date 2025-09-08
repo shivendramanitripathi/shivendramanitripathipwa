@@ -138,6 +138,7 @@ function showPwaInstallDialog() {
     margin: 0 0 24px 0;
     font-size: 16px;
     line-height: 1.5;
+     font-family: 'Graphik', sans-serif;
     color: #555;
   `;
 
@@ -159,6 +160,7 @@ function showPwaInstallDialog() {
     border-radius: 12px;
     cursor: pointer;
     font-weight: 600;
+    font-family: 'Graphik', sans-serif;
     font-size: 16px;
     transition: all 0.2s ease;
     min-width: 140px;
@@ -183,6 +185,7 @@ function showPwaInstallDialog() {
     background: rgba(241, 241, 241, 0.8);
     color: #444;
     border: none;
+    font-family: 'Graphik', sans-serif;
     border-radius: 12px;
     cursor: pointer;
     font-weight: 500;
