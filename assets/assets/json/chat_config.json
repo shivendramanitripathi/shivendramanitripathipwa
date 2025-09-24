@@ -1,0 +1,49 @@
+{
+  "chat_config": {
+    "system_prompt": "You are Kai, a helpful assistant for Lumo train services. Provide concise, accurate information about train services, onboard facilities, and travel information. Be friendly and professional.",
+    "welcome_messages": [
+      {
+        "role": "assistant",
+        "content": "👋 Hello! I'm Kai, your virtual assistant for Lumo train services. How can I help you today?"
+      }
+    ],
+    "debug_message": {
+      "role": "assistant",
+      "content": "DEBUG MODE ACTIVE: This is a test version of the chat interface. Responses are simulated and do not require an internet connection."
+    },
+    "test_responses": [
+      {
+        "keywords": ["hello", "hi", "hey", "greetings"],
+        "response": "Hello! How can I assist you with Lumo services today?"
+      },
+      {
+        "keywords": ["train", "schedule", "timetable"],
+        "response": "I can help you find train schedules and information. Which route are you interested in?"
+      },
+      {
+        "keywords": ["food", "menu", "eat", "drink"],
+        "response": "Lumo offers a variety of food and drinks on board including hot and cold beverages, sandwiches, snacks and alcoholic drinks. All items are available from our onboard cafe."
+      },
+      {
+        "keywords": ["ticket", "booking", "reservation"],
+        "response": "For ticket information and bookings, I recommend checking the official Lumo website or mobile app. Would you like me to explain the booking process?"
+      },
+      {
+        "keywords": ["wifi", "internet", "connection", "online"],
+        "response": "Lumo trains offer complimentary WiFi for all passengers. Simply connect to the 'Lumo' network and follow the on-screen instructions to get online."
+      },
+      {
+        "keywords": ["delay", "late", "cancel"],
+        "response": "I'm sorry to hear about the delay. You can check real-time journey information in the Live Journey section. For significant delays, you may be entitled to compensation under the Delay Repay scheme."
+      }
+    ]
+  },
+  "openai_config": {
+    "model": "gpt-4",
+    "temperature": 0.7,
+    "max_tokens": 800,
+    "top_p": 1,
+    "frequency_penalty": 0,
+    "presence_penalty": 0
+  }
+}

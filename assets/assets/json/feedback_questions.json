@@ -1,0 +1,75 @@
+{
+  "version": "1.0.0",
+  "questions": [
+    {
+      "name": "Seating",
+      "displayName": "How did you find the cleanliness of your seat and table area?",
+      "min": 1.0,
+      "max": 5.0,
+      "initialValue": 3.0
+    },
+    {
+      "name": "Toilets",
+      "displayName": "How would you rate the cleanliness of the onboard toilets?",
+      "min": 1.0,
+      "max": 5.0,
+      "initialValue": 3.0
+    },
+    {
+      "name": "Helpfulness",
+      "displayName": "How helpful and approachable did you find the onboard staff?",
+      "min": 1.0,
+      "max": 5.0,
+      "initialValue": 3.0
+    },
+    {
+      "name": "Visibility",
+      "displayName": "How visible were staff members during your journey?",
+      "min": 1.0,
+      "max": 5.0,
+      "initialValue": 3.0
+    },
+    {
+      "name": "Comfort",
+      "displayName": "How comfortable was the seating during your journey?",
+      "min": 1.0,
+      "max": 5.0,
+      "initialValue": 3.0
+    },
+    {
+      "name": "Temperature",
+      "displayName": "How would you rate the temperature and ventilation onboard?",
+      "min": 1.0,
+      "max": 5.0,
+      "initialValue": 3.0
+    },
+    {
+      "name": "Wi-Fi",
+      "displayName": "How would you rate the speed and reliability of the onboard WiFi?",
+      "min": 1.0,
+      "max": 5.0,
+      "initialValue": 3.0
+    },
+    {
+      "name": "Catering",
+      "displayName": "Did you enjoy the selection of food and drinks on the menu?",
+      "min": 1.0,
+      "max": 5.0,
+      "initialValue": 3.0
+    },
+    {
+      "name": "Noise",
+      "displayName": "How would you rate the noise levels in your carriage?",
+      "min": 1.0,
+      "max": 5.0,
+      "initialValue": 3.0
+    },
+    {
+      "name": "Overall",
+      "displayName": "How would you rate your overall experience on this journey?",
+      "min": 1.0,
+      "max": 5.0,
+      "initialValue": 3.0
+    }
+  ]
+}
