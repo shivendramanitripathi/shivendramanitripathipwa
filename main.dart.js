@@ -8433,21 +8433,20 @@ _.b5$=b
 _.d=$
 _.c=_.a=null},
 Om:function Om(){},
-nC(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s){return new A.Gm(d,f,k,j,l,b,m,r,e,i,q,c,null)},
-Gm:function Gm(a,b,c,d,e,f,g,h,i,j,k,l,m){var _=this
+nC(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r){return new A.Gm(c,e,j,i,k,l,q,d,h,p,b,null)},
+Gm:function Gm(a,b,c,d,e,f,g,h,i,j,k,l){var _=this
 _.e=a
 _.x=b
 _.as=c
 _.ay=d
 _.ch=e
-_.fx=f
-_.fy=g
-_.go=h
-_.id=i
-_.k1=j
-_.k2=k
-_.k3=l
-_.a=m},
+_.fy=f
+_.go=g
+_.id=h
+_.k1=i
+_.k2=j
+_.k3=k
+_.a=l},
 V3:function V3(a,b){var _=this
 _.x=_.w=$
 _.y=!1
@@ -55083,16 +55082,15 @@ r.push(s.ahY())
 if(s.a.k1&&s.y)r.push(s.ai0())
 if(!(s.a.k1&&s.y))r.push(s.ai7())
 return A.lH(null,B.t,A.eQ(B.aT,r,B.C,B.aC),!0)},
-ahY(){var s,r,q,p,o
+ahY(){var s,r,q,p
 this.a.toString
 s=this.c
 s.toString
 s=A.aS(s,null,t.w).w
 r=this.a
-q=r.fx
-p=r.fy
-o=r.go
-return A.b1L(q,r.id,p,s.a,o)},
+q=r.fy
+p=r.go
+return A.b1L("assets/images/background_2.png",r.id,q,s.a,p)},
 ai0(){var s,r,q,p=this,o=p.x
 o===$&&A.b()
 s=p.a
@@ -55846,7 +55844,7 @@ m=A.aK(A.bF(B.c.dh(n.b,"#",h),i))
 l=A.aK(A.bF(B.c.dh(n.c,"#",h),i))
 k=A.aK(A.bF(B.c.dh(n.d,"#",h),i))
 j=p&&!r
-return A.nC(k,"assets/images/background_1.png",new A.amY(r,f),o,"assets/images/new-bg.png",n.f,n.w,n.x,j,"Loading FAQ content...","animated_wifi_eye.json",2,i,m,n.e,l,!0,i,g)}}
+return A.nC(k,new A.amY(r,f),o,"assets/images/new-bg.png",n.f,n.w,n.x,j,"Loading FAQ content...","animated_wifi_eye.json",2,i,m,n.e,l,!0,i,g)}}
 A.amU.prototype={
 $1(a){return a.e==="/faq"},
 $S:59}
@@ -56529,7 +56527,7 @@ m=A.aK(A.bF(B.c.dh(n.b,"#",h),i))
 l=A.aK(A.bF(B.c.dh(n.c,"#",h),i))
 k=A.aK(A.bF(B.c.dh(n.d,"#",h),i))
 j=p&&!r
-return A.nC(k,"assets/images/background_1.png",new A.anl(r),o,"assets/images/new-bg.png",n.f,n.w,n.x,j,"Loading Feedback...","animated_wifi_eye.json",2,i,m,n.e,l,!0,i,g)}}
+return A.nC(k,new A.anl(r),o,"assets/images/new-bg.png",n.f,n.w,n.x,j,"Loading Feedback...","animated_wifi_eye.json",2,i,m,n.e,l,!0,i,g)}}
 A.anh.prototype={
 $1(a){return a.e==="/feedback"},
 $S:59}
@@ -57796,8 +57794,8 @@ $1(a){this.a.ga9().aG(0,$.zk().gaS(),t.i0).tB(a)},
 $S:69}
 A.Bh.prototype={
 cw(a,b){return A.eW(b.I($.cU(),t.h),new A.asc(this,b.I($.Fm(),t.ox)),new A.asd(this),new A.ase(this),!1,!0,!1,t.is,t.l)},
-ai2(a){return A.nC(B.l9,"assets/images/background_1.png",new A.as9(a),"Error loading chat",null,"Roboto",24,18,!0,"Error loading theme","error_animation.json",1,null,B.aX,"#FFFFFF",B.VY,!1,null,"Error")},
-Vb(){return A.nC(B.lp,"assets/images/background_1.png",new A.asa(),"Loading chat",null,"Roboto",24,18,!0,"Initializing Kai Chat...","loading_animation.json",2,null,B.hs,"#FFFFFF",B.VZ,!1,null,"Loading")}}
+ai2(a){return A.nC(B.l9,new A.as9(a),"Error loading chat",null,"Roboto",24,18,!0,"Error loading theme","error_animation.json",1,null,B.aX,"#FFFFFF",B.VY,!1,null,"Error")},
+Vb(){return A.nC(B.lp,new A.asa(),"Loading chat",null,"Roboto",24,18,!0,"Initializing Kai Chat...","loading_animation.json",2,null,B.hs,"#FFFFFF",B.VZ,!1,null,"Loading")}}
 A.ase.prototype={
 $0(){return this.a.Vb()},
 $S:175}
@@ -57809,7 +57807,7 @@ $1(a){var s,r,q="assets/images/background_2.png",p=this.b
 if(p==null)return this.a.Vb()
 s=p.c4(p.b)
 r=p.c4(p.c)
-return A.nC(p.c4(p.d),"assets/images/background_1.png",new A.asb(),"Ask Kai for help with your journey","assets/images/new-bg.png",a.e.c.a,p.w,p.x,!0,"Loading Kai Chat...","animated_wifi_eye.json",2,q,s,p.e,r,!1,q,"Chat with Kai")},
+return A.nC(p.c4(p.d),new A.asb(),"Ask Kai for help with your journey","assets/images/new-bg.png",a.e.c.a,p.w,p.x,!0,"Loading Kai Chat...","animated_wifi_eye.json",2,q,s,p.e,r,!1,q,"Chat with Kai")},
 $S:121}
 A.asb.prototype={
 $2(a,b){return B.Z1},
@@ -58493,18 +58491,18 @@ m=t.p
 return A.br(A.Z(A.a([r,new A.vl(j===i.w,s,k),A.aE(A.a([A.Z(A.a([A.Y("Planned",k,k,k,k,k,q.I(p.$1(o),n).r2(B.e,h,B.r),B.an,k),A.Y(a.b,k,k,k,k,k,q.I(p.$1(o),n).r2(B.e,h,B.r),B.an,k)],m),B.A,B.j,B.f),A.Z(A.a([A.Y("Actual",k,k,k,k,k,q.I(p.$1(o),n).r2(B.e,h,B.r),k,k),A.Y(a.c,k,k,k,k,k,q.I(p.$1(o),n).r2(B.e,h,B.r),k,k)],m),B.eB,B.j,B.f)],m),B.h,B.ze,B.f)],m),B.h,B.j,B.f),1,k)},
 $S:169}
 A.Bs.prototype={
-cw(a,b){var s,r,q,p,o="animated_wifi_eye.json",n="Connecting to train...",m="assets/images/new-bg.png",l="assets/images/background_2.png",k="assets/images/background_1.png",j=b.I($.jw(),t.J),i=j.gm(j)
-if(i==null)return B.aj
-s=B.b.kM(i.w,new A.at0(),new A.at1())
+cw(a,b){var s,r,q,p,o="animated_wifi_eye.json",n="Connecting to train...",m="assets/images/new-bg.png",l="assets/images/background_2.png",k=b.I($.jw(),t.J),j=k.gm(k)
+if(j==null)return B.aj
+s=B.b.kM(j.w,new A.at0(),new A.at1())
 r=b.I($.b6d(),t.rP)
-q=i.e
-if(!r.f||r.c){j=s.a
+q=j.e
+if(!r.f||r.c){k=s.a
 p=s.d
-return A.nC(q.c4(q.d),k,new A.at2(),p,m,q.f,q.w,q.x,!1,n,o,4,l,B.lq,q.e,B.li,!1,l,j)}if(r.e!=null){j=s.a
+return A.nC(q.c4(q.d),new A.at2(),p,m,q.f,q.w,q.x,!1,n,o,4,l,B.lq,q.e,B.li,!1,l,k)}if(r.e!=null){k=s.a
 p=s.d
-return A.nC(q.c4(q.d),k,new A.at3(r),p,m,q.f,q.w,q.x,!0,"Connection error...",o,2,l,B.lq,q.e,B.li,!1,l,j)}j=s.a
+return A.nC(q.c4(q.d),new A.at3(r),p,m,q.f,q.w,q.x,!0,"Connection error...",o,2,l,B.lq,q.e,B.li,!1,l,k)}k=s.a
 p=s.d
-return A.nC(q.c4(q.d),k,new A.at4(q,s,r),p,m,q.f,q.w,q.x,!0,n,o,3,l,B.lq,q.e,B.li,!1,l,j)}}
+return A.nC(q.c4(q.d),new A.at4(q,s,r),p,m,q.f,q.w,q.x,!0,n,o,3,l,B.lq,q.e,B.li,!1,l,k)}}
 A.at0.prototype={
 $1(a){return a.e==="/live_journey"},
 $S:59}
@@ -59033,7 +59031,7 @@ s=p.f
 if(s.r&&!s.e&&s.f==null){s=J.be(s.a)
 r=n.c4(n.b)
 q=n.c4(n.c)
-return A.nC(n.c4(n.d),"assets/images/background_1.png",new A.ayE(),"Browse our selection - "+s+" items available","assets/images/new-bg.png",a.e.c.a,n.w,n.x,!0,"Loading onboard menu...","animated_wifi_eye.json",2,o,r,n.e,q,!1,o,"Onboard Menu")}return B.d9},
+return A.nC(n.c4(n.d),new A.ayE(),"Browse our selection - "+s+" items available","assets/images/new-bg.png",a.e.c.a,n.w,n.x,!0,"Loading onboard menu...","animated_wifi_eye.json",2,o,r,n.e,q,!1,o,"Onboard Menu")}return B.d9},
 $S:121}
 A.ayE.prototype={
 $2(a,b){return B.Z2},
@@ -59365,7 +59363,7 @@ m=A.aK(A.bF(B.c.dh(n.b,"#",h),i))
 l=A.aK(A.bF(B.c.dh(n.c,"#",h),i))
 k=A.aK(A.bF(B.c.dh(n.d,"#",h),i))
 j=p&&!r
-return A.nC(k,"assets/images/background_1.png",new A.aCz(r),o,"assets/images/new-bg.png",n.f,n.w,n.x,j,"Loading Assistance Screen...","animated_wifi_eye.json",2,i,m,n.e,l,!0,i,g)}}
+return A.nC(k,new A.aCz(r),o,"assets/images/new-bg.png",n.f,n.w,n.x,j,"Loading Assistance Screen...","animated_wifi_eye.json",2,i,m,n.e,l,!0,i,g)}}
 A.aCv.prototype={
 $1(a){return a.e==="/requestAssistance"},
 $S:59}
@@ -60031,7 +60029,7 @@ o=q.d
 if(o==null||q.e)return B.d9
 s=o.c4(o.b)
 r=o.c4(o.c)
-return A.nC(o.c4(o.d),"assets/images/background_1.png",new A.aJj(),"","assets/images/new-bg.png",a.e.c.a,o.w,o.x,!0,"Loading Train Layout...","animated_wifi_eye.json",2,p,s,o.e,r,!1,p,"Train Layout")},
+return A.nC(o.c4(o.d),new A.aJj(),"","assets/images/new-bg.png",a.e.c.a,o.w,o.x,!0,"Loading Train Layout...","animated_wifi_eye.json",2,p,s,o.e,r,!1,p,"Train Layout")},
 $S:121}
 A.aJj.prototype={
 $2(a,b){return B.Z_},
