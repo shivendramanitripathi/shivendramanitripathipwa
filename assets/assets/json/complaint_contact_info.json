@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "title": "Have a Complaint?",
+  "subtitle": "We're sorry to hear that you've had a poor experience.",
+  "description": "You can get in touch with us through any of the following methods:",
+  "contactMethods": [
+    {
+      "type": "website",
+      "icon": "web",
+      "label": "Website Support",
+      "title": "Help & Support | Lumo (railhelp.co.uk)",
+      "description": "Access our online help center and support portal",
+      "isLink": true
+    },
+    {
+      "type": "email",
+      "icon": "email",
+      "label": "Email Support",
+      "title": "customerexperience@lumo.co.uk",
+      "description": "Send us an email with your concerns",
+      "isLink": true
+    },
+    {
+      "type": "phone",
+      "icon": "phone",
+      "label": "Phone Support",
+      "title": "0345 528 0409",
+      "description": "Available 06:00 to 23:00 Monday to Sunday (except Christmas and Boxing Day)"
+    },
+    {
+      "type": "textphone",
+      "icon": "chat",
+      "label": "Textphone",
+      "title": "18001 0800 031 8542",
+      "description": "For customers who are deaf or hard of hearing"
+    },
+    {
+      "type": "postal",
+      "icon": "location",
+      "label": "Postal Address",
+      "title": "Freepost, LUMO CUSTOMER SUPPORT",
+      "description": "Send us a letter with your feedback"
+    }
+  ]
+}
