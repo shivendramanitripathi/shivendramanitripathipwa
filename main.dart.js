@@ -64804,7 +64804,9 @@ case 6:s=7
 return A.x(i.x.dD(0),$async$$0)
 case 7:s=m.d.a>=J.b6(m.e)-1?8:10
 break
-case 8:if(i.as){n=[1]
+case 8:if(i.at){n=[1]
+s=4
+break}if(i.as){n=[1]
 s=4
 break}i.as=!0
 l=i.w.gW()
@@ -64838,11 +64840,12 @@ $S:69}
 A.aYu.prototype={
 $0(){var s=0,r=A.K(t.H),q,p=this,o,n
 var $async$$0=A.B(function(a,b){if(a===1)return A.H(b,r)
-while(true)switch(s){case 0:n=p.b
-if(n.b.a===0&&n.c.a===0){p.a.c.aN(t.Pu).f.p5(B.RU)
+while(true)switch(s){case 0:n=p.a
+if(n.at){s=1
+break}o=p.b
+if(o.b.a===0&&o.c.a===0){n.c.aN(t.Pu).f.p5(B.RU)
 s=1
-break}n=p.a
-o=n.w.gW()
+break}o=n.w.gW()
 o=o==null?null:o.vC()
 s=o===!0?3:4
 break
