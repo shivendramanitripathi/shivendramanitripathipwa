@@ -32,14 +32,14 @@
       "icon": "chat",
       "label": "Text Support",
       "title": "18001 0800 031 8542",
-      "description": "For customers who are deaf or hard of hearing"
+      "description": "Get in touch for support"
     },
     {
       "type": "postal",
       "icon": "location",
       "label": "Postal Address",
       "title": "Freepost, LUMO CUSTOMER SUPPORT",
-      "description": "Send us a letter with your feedback"
+      "description": "You can send us the feedback via post"
     }
   ]
 }
