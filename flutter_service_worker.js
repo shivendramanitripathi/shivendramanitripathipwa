@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "96d908c47fcf02be366f8d0375bffd9d",
-"assets/AssetManifest.bin.json": "efb42fdf1447a0ed07b703920f5c642c",
-"assets/AssetManifest.json": "5ea0021594126294bd96041dfbe8bfa1",
+const RESOURCES = {"assets/AssetManifest.bin": "dd0d0e169625b6300278ce94f2eceebe",
+"assets/AssetManifest.bin.json": "cddbf7a1a60f980827993fafdf792db5",
+"assets/AssetManifest.json": "b024f6945c35e755bc36874ee6b16be6",
 "assets/assets/fonts/Graphik-Bold.otf": "b6db2b8e4de29b06738214a25eb3987b",
 "assets/assets/fonts/Graphik-Medium.otf": "e741f2e4034bace58b70cc59dfbe5594",
 "assets/assets/fonts/Graphik-Regular.otf": "dbdd333afd6559c1884208b8537ab62d",
@@ -14,6 +14,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "96d908c47fcf02be366f8d0375bffd9d
 "assets/assets/images/background_rain.png": "e4ccc21f11593883219a145b47332483",
 "assets/assets/images/bakery.png": "f8f6c1db431b78df8b37e5b16c1e4e0d",
 "assets/assets/images/barcode.png": "d420d70258034063046625bd309fbf96",
+"assets/assets/images/belowGamePipe.png": "be028413d59f9c6e71abd7dd862ed50d",
 "assets/assets/images/check.svg": "e0596b3c3caec990f97d78b64db59a06",
 "assets/assets/images/cold_drinks.png": "0f6838bbb19cd3452b38f4782e55f2cc",
 "assets/assets/images/complaint.svg": "e444b6866a00a46e5e6c363288397ade",
@@ -22,6 +23,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "96d908c47fcf02be366f8d0375bffd9d
 "assets/assets/images/divider.png": "ef834c03bc34b639243444e8da69b245",
 "assets/assets/images/favorites.png": "28c9b33489e5b3799e434b32ecbd3343",
 "assets/assets/images/flot_button.svg": "2cb1364703a918f6fa4a264ce4e34503",
+"assets/assets/images/game-bg.png": "775119c0cf729b7636d5ababf80f5465",
+"assets/assets/images/gamePipe.png": "e622c4a8fa7fdba5c8d5a73bae082a95",
 "assets/assets/images/hot_drinks.png": "bbbd341d2224ec7478762ae7454a2d43",
 "assets/assets/images/ic-request-assistance.png": "20578d50af0c37d0479a678f6aa6dd13",
 "assets/assets/images/icDaytime.png": "00a94bb793cf176e53464051cc019eb0",
@@ -105,21 +108,19 @@ const RESOURCES = {"assets/AssetManifest.bin": "96d908c47fcf02be366f8d0375bffd9d
 "canvaskit/skwasm.wasm": "39dd80367a4e71582d234948adc521c0",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
-"flutter_bootstrap.js": "138d9696a3d56090129d126c23541374",
+"flutter_bootstrap.js": "d6a99dddabc66b1bdbfb0c07aa3ece8b",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "33e88a0bbf14638dcc11845799f687a1",
-"/": "33e88a0bbf14638dcc11845799f687a1",
-"main.dart.js": "eadafa89304175c4a4ff96993f9a0655",
+"index.html": "af2523b5c1f35564bf1aae0af517996e",
+"/": "af2523b5c1f35564bf1aae0af517996e",
+"main.dart.js": "d3637e1a8ab0dafacca2e3abd1df631c",
 "manifest.json": "463ff0dbffcd25c3d22004e9c7fc809a",
 "pdf/safety_checklist.pdf": "d41d8cd98f00b204e9800998ecf8427e",
 "pdf/train_safety_guide.pdf": "d41d8cd98f00b204e9800998ecf8427e",
 "pwa_install.js": "6ff44a641c3f9dcf8e2d82d28f11e799",
-"version.json": "277aaa89689b4bf55a501309a70b82d2",
-"_headers": "8eeb44d585c0b86f1527d1e972c44ad6",
-"_redirects": "d38a2b58df330c85e0029eecf71d7c26"};
+"version.json": "277aaa89689b4bf55a501309a70b82d2"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
