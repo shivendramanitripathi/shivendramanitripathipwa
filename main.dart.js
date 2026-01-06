@@ -63560,22 +63560,21 @@ g.a.toString
 h=m*0.022
 h=A.lJ(f,f,B.hz,f,f,f,f,f,f,f,f,f,new A.a7(h,j,h,j),f,new A.cA(A.a3(m*0.024),B.X),f,f,f,f,f)
 g.a.toString
-p.push(A.b8(A.S(A.a([o,n,k,i,A.eK(A.J("Play again",f,f,f,f,f,A.a_(f,f,B.q,f,f,f,f,f,f,f,f,m*0.014,f,f,B.O,f,f,!0,f,f,f,f,f,f,f,f),f,f),g.gau4(),h)],q),B.w,B.a7,B.u),f,f))}if(!g.ch){o=g.cy
+p.push(A.b8(A.S(A.a([o,n,k,i,A.eK(A.J("Play again",f,f,f,f,f,A.a_(f,f,B.q,f,f,f,f,f,f,f,f,m*0.014,f,f,B.O,f,f,!0,f,f,f,f,f,f,f,f),f,f),g.gau4(),h)],q),B.w,B.a7,B.u),f,f))}if(!g.ch&&!g.ay){o=g.cy
 g.a.toString
-n=m*0.025
-k=A.J("Flappy Bird",f,f,f,f,f,A.a_(f,f,B.hz,f,f,f,f,f,f,f,f,n,f,f,B.a8,f,f,!0,f,f,f,f,f,f,f,f),B.az,f)
-i=m*0.01
-h=A.aD(f,f,i)
+n=A.J("Flappy Bird",f,f,f,f,f,A.a_(f,f,B.hz,f,f,f,f,f,f,f,f,m*0.023,f,f,B.a8,f,f,!0,f,f,f,f,f,f,f,f),B.az,f)
+k=m*0.01
+i=A.aD(f,f,k)
 g.a.toString
-k=A.am(A.a([new A.hC(1,B.ed,k,f),h,A.dN(e,f,B.ar,d.b*0.065,f,m*0.065)],q),B.w,B.a7,B.am)
-i=A.aD(f,i,f)
+n=A.am(A.a([new A.hC(1,B.ed,n,f),i,A.dN(e,f,B.ar,d.b*0.065,f,m*0.065)],q),B.w,B.a7,B.am)
+k=A.aD(f,k,f)
 g.a.toString
-n=A.lJ(f,f,B.hz,f,f,f,f,f,f,f,f,f,new A.a7(j,l,j,l),f,new A.cA(A.a3(n),B.X),f,f,f,f,f)
+l=A.lJ(f,f,B.hz,f,f,f,f,f,f,f,f,f,new A.a7(j,l,j,l),f,new A.cA(A.a3(m*0.025),B.X),f,f,f,f,f)
 g.a.toString
-n=A.eK(A.J("Tap to Play",f,f,f,f,f,A.a_(f,f,B.q,f,f,f,f,f,f,f,f,m*0.011,f,f,B.O,f,f,!0,f,f,f,f,f,f,f,f),f,f),s,n)
+l=A.eK(A.J("Tap to Play",f,f,f,f,f,A.a_(f,f,B.q,f,f,f,f,f,f,f,f,m*0.011,f,f,B.O,f,f,!0,f,f,f,f,f,f,f,f),f,f),s,l)
 g.a.toString
 m*=0.045
-p.push(A.b8(A.eD(new A.fP(new A.aq(0,o*0.95,0,1/0),A.S(A.a([k,i,n,B.bV,A.dN("assets/images/cursor.svg",f,B.ar,m,f,m)],q),B.w,B.a7,B.am),f),f,f,B.al),f,f))}return A.dS(f,A.dF(B.b0,A.a([r,A.PW(0,A.dF(B.b0,p,B.a3,B.aT,f))],q),B.a3,B.aT,f),B.an,!1,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,s,f,f,f,f,f,f,!1,B.aW)}}
+p.push(A.b8(A.eD(new A.fP(new A.aq(0,o*0.95,0,1/0),A.S(A.a([n,k,l,B.bV,A.dN("assets/images/cursor.svg",f,B.ar,m,f,m)],q),B.w,B.a7,B.am),f),f,f,B.al),f,f))}return A.dS(f,A.dF(B.b0,A.a([r,A.PW(0,A.dF(B.b0,p,B.a3,B.aT,f))],q),B.a3,B.aT,f),B.an,!1,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,s,f,f,f,f,f,f,!1,B.aW)}}
 A.b1a.prototype={
 $1(a){var s=this.a
 if(!s.ay){s.au6(0)
