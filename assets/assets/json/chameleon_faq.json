@@ -39,91 +39,112 @@
     "support": {
         "generalEnquiries": [
             {
-                "meta": "toilet restroom washroom facilities",
-                "question": "Where can I find the toilets onboard?",
-                "answer": "You can find the onboard toilets in carriages B & D. Please use the map in this app or speak to a member of the crew for further assistance.",
-                "media": "lumo/pet_policy_animation.json"
+                "meta": "luggage baggage suitcase bag bags bring allowed policy",
+                "question": "I need to bring luggage on my journey, what am I allowed to bring?",
+                "answer": "Here at Lumo, we understand our customers wish to keep their luggage close by, and that what they are travelling with is important, but depending on the size, this may not always be possible. We encourage all our customers to travel light for their ease, safety and comfort as space is limited onboard. We only allow customers to bring with them a maximum of ONE medium sized suitcase (height 63cm x width 41cm x depth 27cm) and ONE small bag, rucksack or holdall, that is small enough to fit either on your lap or under the seat in front of you. Please read our <a href=\"https://www.lumo.co.uk/plan-your-journey/onboard-luggage-policy\">onboard luggage policy</a> for more information. Any luggage carried that exceeds these limits is carried at our discretion and may be refused or a charge can be imposed for additional items of luggage, or for excessively large or bulky items."
             },
             {
-                "meta": "food snacks drinks cafeteria dining cart lumoeats refreshments drink",
-                "question": "Where can I purchase food and drinks during the journey?",
-                "answer": "Hot food is available only by pre-order at lumoeats.co.uk/. There is an at-seat trolley service with cold food and drinks, including chocolate, snacks, water, and soft drinks."
+                "meta": "refund cancel ticket evoucher lumofixed anytime",
+                "question": "How can I apply for a refund or cancel my ticket?",
+                "answer": "Anytime tickets for Lumo services will receive a full refund, subject to a £10 admin fee.\n\nLumoFixed tickets are non-refundable. However, to allow customers to book with confidence, from 31 March 2022 until 30 September 2022, you can request an evoucher for the full value of a LumoFixed ticket you no longer intend to use.\n\nPlease complete our refund form <a href=\"https://refunds.lumo.co.uk/\">here</a>.\n\nRequests for LumoFixed evouchers must be made no later than 18:00 the day before travel. Evouchers will be valid for 12 months from the date of issue and can be used to pay in full or in part for another Lumo journey of your choice in the future. You must have a Lumo account in order to receive an evoucher."
             },
             {
-                "meta": "food snacks drinks cafeteria dining cart preorder lumoeats",
-                "question": "I pre-ordered food, where is it?",
-                "answer": "If you pre-ordered at lumoeats.co.uk/ a member of staff will endeavour to deliver your order shortly after departure. If in doubt, please speak to a member of our crew."
+                "meta": "change advance ticket reschedule rescheduled journey booking",
+                "question": "How can I change my Advance ticket?",
+                "answer": "To change your Advance ticket, you will first need to purchase a ticket for your new journey directly through our website or app. Once you have done this, head to our <a href=\"https://refunds.lumo.co.uk/\">refund portal</a> to request a refund for the ticket you no longer require, and when prompted, select \"Rescheduled Journey\" as your reason. You will need to provide the booking reference for your new ticket(s)."
             },
             {
-                "meta": "emergency exits escape",
-                "question": "How can I locate the emergency exits in the train?",
-                "answer": "The exits are located at XXXXXXX"
+                "meta": "change anytime off-peak super ticket amend journey",
+                "question": "How can I change my Anytime, off-peak or Super off-peak ticket?",
+                "answer": "If you want to change one of these tickets, just log into your account, choose the ticket and then select the Amend Journey option. We will then show you what tickets are available for that journey, on a different time and date, where required."
+            },
+
+            {
+                "meta": "bicycle bike cycling folding bikes reserve transport firstluggage",
+                "question": "Can I reserve my bicycle on the train?",
+                "answer": "Lumo do not accept non-foldable bicycles as we do not have enough space for them on board, however we have partnered with FIRSTLUGGAGE to transport your bicycles anywhere you need them - for a quote to transport your bicycle to your destination please visit <a href=\"https://lumoluggage.co.uk/\">LumoLuggage</a>.\n\nFolding bikes are welcomed onboard Lumo and will not be subject to prebooking requirements. Just pack your bike up before boarding the train and store it in the luggage stacks."
             },
             {
-                "meta": "entertainment, movies, games, fun, bored",
-                "question": "How do I connect to the onboard WiFi?",
-                "answer": "Connect to LumoGo by following the instructions on the 'Entertainment' page in this app. We'll do our best to keep you entertained!"
+                "meta": "child children fares ticket kids family railcard discount",
+                "question": "How much are child fares?",
+                "answer": "Children under the age of 5 can travel on our trains free of charge, so you will not need to buy a ticket. Please keep in mind that they will not have a reservation, so might have to stand or sit with you. If you want to guarantee a seat for them, you should buy a child ticket. One of the cheapest ways to purchase a child's fare is by using a Family Railcard. This provides a 33% discount on adult fares and a 60% discount on child fares when all travelling together. To find out more visit www.familyandfriends-railcard.co.uk."
             },
             {
-                "meta": "charging ports outlets power cables",
-                "question": "Where are the charging ports located in the train?",
-                "answer": "Our charging ports are located just below your seat. We also offer USB ports to charge your mobile device"
+                "meta": "contact media opportunity enquiries email press",
+                "question": "How do I contact Lumo regarding a media opportunity?",
+                "answer": "For all media enquiries, please email <a href=\"mailto:lumo@cwa.co.uk\">lumo@cwa.co.uk</a>. Please note this inbox is only operational from 08:30 - 17:30, Monday to Friday."
             },
             {
-                "meta": "seating reserved general seat seats",
-                "question": "How can I differentiate between reserved and general seating?",
-                "answer": "Check the light above the seats, just above the window. This will tell you if the seat is reserved or available"
+                "meta": "stations routes additional new stops destinations expanding",
+                "question": "Are you planning to add additional stations to your routes?",
+                "answer": "We aren't planning on adding any more stations to our route at present but we do sell connecting tickets so you can travel on to your intended destination."
             },
             {
-                "meta": "lost found items belongings",
-                "question": "What to do when you lose something onboard?",
-                "answer": "Report this to a member of our crew, we'll make sure to submit a report and do our best to help you find it!"
+                "meta": "timetable services run schedule times find unable",
+                "question": "I am unable to find when your services run?",
+                "answer": "Please take a look at our timetable page to view our most up to date <a href=\"https://www.lumo.co.uk/plan-your-journey/our-timetable\">timetable</a>."
             },
             {
-                "meta": "where schedule timings stops platforms stations station platform",
-                "question": "How can I check the train's schedule and stops?",
-                "answer": "You can check the train's schedule and stops on the Lumo website. The initial service consists of two trains per day in each direction on most weekdays, and the current service is five trains per day in each direction. The stops are: London King's Cross, Stevenage, Newcastle, Morpeth, and Edinburgh Waverley."
+                "meta": "advance ticket booking buy far ahead weeks",
+                "question": "How far in advance can I buy my ticket?",
+                "answer": "You can currently book up to 24 weeks in advance, with the exception of dates when our services will be impacted by engineering, which will usually be available for booking around 8 weeks before travel."
             },
             {
-                "meta": "ticket tickets validation booking e-ticket eticket etickets e-tickets",
-                "question": "What should I keep in mind regarding ticket validation during the journey?",
-                "answer": "Lumo is a digital-first operator and uses a paperless ticketing system. Booking is available via the Lumo website, app, and other train ticket booking sites. Ensure you have a valid digital ticket before boarding."
+                "meta": "pets dogs cats animals travel onboard leads basket",
+                "question": "Can I travel with my pets?",
+                "answer": "We welcome your pets on board our trains. Dogs will need to be kept on leads and other small domestic animals must always travel in a fully enclosed basket that does not exceed 85 x 60 x 60 cm. Please bear in mind that we cannot make a seat reservation for animals (apart for assistance dogs).\n\nWe also provide water bowls and stool bags, please ask one of our colleagues who will be able to give you some.\n\nOur Customer Experience Ambassadors will make sure that areas where pets have been kept are thoroughly cleaned.\n\nWhere a rail replacement service is operated it may not be possible to convey some animals, so please check with us prior to travel on our website or by contacting our Customer Experience team."
             },
             {
-                "meta": "pets dogs dog cat pig mouse rat animals",
-                "question": "What is Lumo's pet policy?",
-                "answer": "Dogs are allowed onboard but they must be on a leash. However, dogs don't require seat reservations. Small domestic animals should be in fully enclosed baskets with dimensions not exceeding 85 x 60 x 60 cm. Water bowls and stool bags for pets are available upon request from Lumo staff.",
-                "media": "lumo/pet_policy_animation.json"
+                "meta": "emails receiving notifications marketing preferences unsubscribe",
+                "question": "Why am I receiving emails from Lumo?",
+                "answer": "Lumo will send you service notifications whenever you book your ticket with us directly. These messages allow us to keep you updated about any changes to your service and ensures that your journey goes as smoothly as possible. If you have agreed to receive marketing communications from us, Lumo may contact you from time-to-time with our latest offers and promotions. You can change these preferences at any time by going to the 'my account' section on the customer website. Alternatively, you can opt out using the 'unsubscribe' button located in the footer of these emails.\n\nAll genuine service and marketing emails will be sent from noreply@email.lumo.co.uk."
             },
             {
-                "meta": "where headquarters location based company",
-                "question": "Where is Lumo's headquarters located?",
-                "answer": "Lumo's headquarters is located in Newcastle upon Tyne, United Kingdom."
+                "meta": "seat reserve reservation book advance anytime off-peak super",
+                "question": "How do I reserve a seat?",
+                "answer": "For all Advance purchase fares booked on our website our system will automatically reserve a seat free of charge. For Anytime, Off-Peak or Super Off-Peak fares the site will ask whether you want a seat reserved. This is in case you have not made a decision on when you want to travel or would prefer not to be tied down to a particular train. We are not always able to reserve seats. This could be because: The train services you are travelling on do not offer <a href=\"https://www.lumo.co.uk/tickets/seat-reservations\">seat reservations</a>, e.g. if it is a short journey. The train on which you wish to travel is full at the time of booking. The train company may not have released seat <a href=\"https://www.lumo.co.uk/tickets/seat-reservations\">reservations</a> yet. This is done up to 12 weeks ahead of travel. Even without a seat reservation your tickets are still valid and you can sit in any vacant unreserved seat for the appropriate class of travel for your journey.\n\nYou can download our seat maps <a href=\"https://www.lumo.co.uk/tickets/seat-reservations\">here</a>."
             },
             {
-                "meta": "luggage suitcase baggage bag bags policy",
-                "question": "What is Lumo's luggage policy?",
-                "answer": "Customers should travel light due to limited space onboard. Bulky sporting equipment over 63 x 41 x 27cm cannot be stored safely on board. However, customers can use LumoLuggage Courier Service to transport such items. The luggage service can be booked at https://www.lumo.co.uk/onboard/lumoluggage."
-            },
-            {
-                "meta": "trains fleet information",
-                "question": "What can you tell me about Lumo's train fleet?",
-                "answer": "Lumo operates 5 trains of the model Class 803 electric multiple unit high-speed trains. These trains are manufactured by Hitachi and have a seating capacity of 400. The seating arrangement is all-standard class 2-by-2."
-            },
-            {
-                "meta": "safe scared worried anxious distressed customer help aggressive angry uncomfortable sexual assault staring",
-                "question": "I feel unsafe, what can I do?",
-                "answer": "Lumo are committed to ensuring passengers feel safe and relaxed throughout their journey. If you feel unsafe or have a concern about another passenger, speak to one of our members of staff, who are trained to deal with any situations. We will ensure discreteness where necessary."
-            },
-            {
-                "meta": "card payments cash pay contactless tickets",
-                "question": "Do you accept cash onboard?",
-                "answer": "As a digital-first operator committed to sustainability, we are unable to take cash payments onboard. We accept contactless and card payments."
-            },
-            {
-                "meta": "live train status information",
-                "question": "How can I get live information on the train's location and status?",
-                "answer": "You can get live information about the train's location and status through the Lumo app. The app provides real-time updates and notifications regarding any delays or changes in schedule."
+                "meta": "left onboard train get back lost property",
+                "question": "I have left something onboard the train, how do I get it back?",
+                "answer": "Our Customer Experience Ambassadors will be visible across the train throughout your journey. If they notice any lost property, they will proactively seek to identify their owner and reconcile them with it. However, if they haven't managed to do so before you left our train, your property will be handed in at the train's final destination station, at either London King's Cross or Edinburgh Waverley. If the train is terminated short of its final destination, we may also hand this in at the terminating station. For more information and to report lost items, see the contact options in the table below.",
+                "lostPropertyTable": [
+                    {
+                        "station": "Edinburgh Waverley",
+                        "operator": "Excess Baggage Company",
+                        "location": "Platform two near the Carlton Road entrance",
+                        "openingHours": "Mon – Sun 09:00 – 17:30",
+                        "contact": "Lost Property"
+                    },
+                    {
+                        "station": "Morpeth",
+                        "operator": "Northern",
+                        "location": "Ticket office",
+                        "openingHours": "Mon – Fri 06:30 – 17:30, Saturday 06:30 – 13:00, Sunday Closed",
+                        "contact": "0800 200 6060"
+                    },
+                    {
+                        "station": "Newcastle",
+                        "operator": "London North Eastern Railway",
+                        "location": "Main concourse",
+                        "openingHours": "Mon – Sat 06:15 – 21:00",
+                        "contact": "01163 663 587"
+                    },
+                    {
+                        "station": "Stevenage",
+                        "operator": "Great Northern",
+                        "location": "Ticket office",
+                        "openingHours": "Mon – Sun 07:00 – 22:00",
+                        "contact": "Lost Property"
+                    },
+                    {
+                        "station": "London King's Cross",
+                        "operator": "Excess Baggage Company",
+                        "location": "Main concourse",
+                        "openingHours": "Mon-Sun 09:00 – 17:30",
+                        "contact": "Lost Property"
+                    }
+                ]
             }
         ]
     }
