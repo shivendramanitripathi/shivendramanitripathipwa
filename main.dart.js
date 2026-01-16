@@ -7454,8 +7454,9 @@ wz:function wz(){},
 bgW(a){var s=document.createElement("a")
 s.href=a
 return s},
-bh1(a){var s=new self.Blob(a)
-return s},
+bh1(a,b){var s={}
+s.type=b
+return new self.Blob(a,s)},
 qv(a,b,c,d,e){var s=c==null?null:A.bv9(new A.b1j(c),t.I3)
 s=new A.UT(a,b,s,!1,e.h("UT<0>"))
 s.Qu()
@@ -69596,7 +69597,7 @@ j.Ra(A.biL(new A.b6J(m,k),B.uJ))
 s=8
 return A.x(J.bgO(j),$async$vw)
 case 8:i=a0
-h=A.bh1([i])
+h=A.bh1([i],"application/pdf")
 e=(self.URL||self.webkitURL).createObjectURL(h)
 e.toString
 g=e
@@ -69684,7 +69685,7 @@ j.Ra(A.biL(new A.b6N(m,k),B.uJ))
 s=8
 return A.x(J.bgO(j),$async$wZ)
 case 8:i=a0
-h=A.bh1([i])
+h=A.bh1([i],"application/pdf")
 e=(self.URL||self.webkitURL).createObjectURL(h)
 e.toString
 g=e
@@ -69747,7 +69748,7 @@ j.Ra(A.biL(new A.b6M(m,k),B.uJ))
 s=8
 return A.x(J.bgO(j),$async$wv)
 case 8:i=a0
-h=A.bh1([i])
+h=A.bh1([i],"application/pdf")
 e=(self.URL||self.webkitURL).createObjectURL(h)
 e.toString
 g=e
